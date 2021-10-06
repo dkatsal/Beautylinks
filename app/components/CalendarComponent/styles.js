@@ -1,0 +1,100 @@
+export default theme => ({
+  date: {
+    textAlign: 'center',
+    fontSize: 18,
+    color: '#4C4C4C',
+    margin: '0 0 8px',
+  },
+  dayRow: {
+    margin: 0,
+    padding: '13px 0',
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+    fontSize: 18,
+    borderTop: '1px solid #C4C4C4',
+  },
+  dayItem: {
+    margin: '0 auto',
+    padding: 0,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    border: '2px solid transparent',
+    '@media (max-width: 767px)': {
+      width: 35,
+      height: 30,
+      fontSize: 16,
+    },
+    '@media (min-width: 768px)': {
+      width: 65,
+      height: 46,
+      fontSize: 18,
+    },
+  },
+  dateItem: {
+    margin: '0 auto',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    border: '2px solid transparent',
+    borderRadius: 0,
+    letterSpacing: 0,
+    color: '#DCE5E5',
+    minWidth: 'inherit',
+    lineHeight: 1,
+    padding: 0,
+    '@media (max-width: 767px)': {
+      width: 35,
+      height: 30,
+      fontSize: 16,
+    },
+    '@media (min-width: 768px)': {
+      width: 65,
+      height: 46,
+      fontSize: 18,
+    },
+    '&:hover': {
+      border: '2px solid #00C6C6',
+      color: '#00C6C6',
+      backgroundColor: 'transparent',
+    },
+  },
+  dateItemCurrent: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    border: '2px solid #00C6C6',
+    margin: '0 auto',
+    color: '#00C6C6',
+    borderRadius: 0,
+    letterSpacing: 0,
+    padding: 0,
+    '@media (max-width: 767px)': {
+      width: 35,
+      height: 30,
+      fontSize: 16,
+    },
+    '@media (min-width: 768px)': {
+      width: 65,
+      height: 46,
+      fontSize: 18,
+    },
+  },
+  dateBox: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    alignItems: 'flex-start',
+    justifyContent: 'space-between',
+    borderTop: '1px solid #C4C4C4',
+  },
+  dateColumn: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    alignItems: 'center',
+    justifyContent: 'center',
+    '@media (max-width: 767px)': {
+      width: '100%',
+    }
+  }
+});

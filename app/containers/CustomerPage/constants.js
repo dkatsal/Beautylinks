@@ -1,0 +1,33 @@
+/*
+ *
+ * CustomerPage constants
+ *
+ */
+
+export const SAVE_EMAIL_PASSWORD = 'app/CustomerPage/SAVE_EMAIL_PASSWORD';
+export const SAVE_EMAIL_PASSWORD_SUCCESS = 'app/CustomerPage/SAVE_EMAIL_PASSWORD_SUCCESS';
+export const SAVE_EMAIL_PASSWORD_FAIL = 'app/CustomerPage/SAVE_EMAIL_PASSWORD_FAIL';
+
+export const CHANGE_ACTIVE_STATUS = 'app/CustomerPage/CHANGE_ACTIVE_STATUS';
+export const CHANGE_ACTIVE_STATUS_SUCCESS = 'app/CustomerPage/CHANGE_ACTIVE_STATUS_SUCCESS';
+export const CHANGE_ACTIVE_STATUS_FAIL = 'app/CustomerPage/CHANGE_ACTIVE_STATUS_FAIL';
+
+export const DELETE_USER = 'app/CustomerPage/DELETE_USER';
+export const DELETE_USER_SUCCESS = 'app/CustomerPage/DELETE_USER_SUCCESS';
+export const DELETE_USER_FAIL = 'app/CustomerPage/DELETE_USER_FAIL';
+
+export const GET_USER_BOOKINGS = 'app/CustomerPage/GET_USER_BOOKINGS';
+export const GET_USER_BOOKINGS_SUCCESS = 'app/CustomerPage/GET_USER_BOOKINGS_SUCCESS';
+export const GET_USER_BOOKINGS_FAIL = 'app/CustomerPage/GET_USER_BOOKINGS_FAIL';
+
+export const GET_USER_BOOKING_BY_ID = 'app/CustomerPage/GET_USER_BOOKING_BY_ID';
+export const GET_USER_BOOKING_BY_ID_SUCCESS = 'app/CustomerPage/GET_USER_BOOKING_BY_ID_SUCCESS';
+export const GET_USER_BOOKING_BY_ID_FAIL = 'app/CustomerPage/GET_USER_BOOKING_BY_ID_FAIL';
+
+export const GET_USER_FAVORITE_MASTERS = 'app/CustomerPage/GET_USER_FAVORITE_MASTERS';
+export const GET_USER_FAVORITE_MASTERS_SUCCESS = 'app/CustomerPage/GET_USER_FAVORITE_MASTERS_SUCCESS';
+export const GET_USER_FAVORITE_MASTERS_FAIL = 'app/CustomerPage/GET_USER_FAVORITE_MASTERS_FAIL';
+
+export const PUT_USER_CANCEL_BOOKING = 'app/CustomerPage/PUT_USER_CANCEL_BOOKING';
+export const PUT_USER_CANCEL_BOOKING_SUCCESS = 'app/CustomerPage/PUT_USER_CANCEL_BOOKING_SUCCESS';
+export const PUT_USER_CANCEL_BOOKING_FAIL = 'app/CustomerPage/PUT_USER_CANCEL_BOOKING_FAIL';
